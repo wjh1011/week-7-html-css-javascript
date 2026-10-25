@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 Practical - Basic Arithmetic Calculator</title>
+    <!-- Link the CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main heading -->
+    <h1>Basic Arithmetic Calculator</h1>
+
+    <!-- A card that holds the whole calculator -->
+    <div class="calculator">
+
+        <!-- Two number input fields -->
+        <div class="input-row">
+            <label for="num1">First number:</label>
+            <input type="number" id="num1" placeholder="Enter a number">
+        </div>
+
+        <div class="input-row">
+            <label for="num2">Second number:</label>
+            <input type="number" id="num2" placeholder="Enter a number">
+        </div>
+
+        <!-- Four operation buttons -->
+        <div class="buttons">
+            <button id="addBtn">Add (+)</button>
+            <button id="subtractBtn">Subtract (-)</button>
+            <button id="multiplyBtn">Multiply (x)</button>
+            <button id="divideBtn">Divide (/)</button>
+        </div>
+
+        <!-- Where the result (or error message) is shown -->
+        <p id="result">Result will appear here.</p>
+
+    </div>
+
+    <!-- Link the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

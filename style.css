@@ -1,0 +1,81 @@
+/* style.css - styles for the Basic Arithmetic Calculator */
+
+/* Page background and font */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #1f3a5f;
+}
+
+/* The calculator card */
+.calculator {
+    max-width: 420px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Each input row: label on the left, box on the right */
+.input-row {
+    margin-bottom: 15px;
+}
+
+.input-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* The number input fields */
+.input-row input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #9aa7b5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* The row of four buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 10px 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #1d4ed8;
+}
+
+/* The result area */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f3a5f;
+    background-color: #e8eef7;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+}
